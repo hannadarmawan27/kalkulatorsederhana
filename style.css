@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    font-family: Helvetica,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    margin: 55px auto;
+    cursor: pointer;
+}
+
+th, td{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid black;
+    color: #fff !important;
+    font-size: 32px ;
+}
+
+th{
+    height: 100px;
+    text-align: right;
+    background-color: black;
+    font-weight: normal;
+    padding-right: 20px;
+}
+
+td:hover{
+    background-color: darkgray;
+}
+
+tr td:last-child {
+    background-color: orange ;
+}
+
+tr td:last-child:hover {
+    background-color: darkorange;
+}
